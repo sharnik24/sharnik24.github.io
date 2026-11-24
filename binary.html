@@ -1,17 +1,30 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>How a computer counts with only 0 and 1</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
+    <p><a href="index.html">← Tushar Rathod</a></p>
+
+    <span class="tag">Computer Basics</span>
     <h1>How a computer counts with only 0 and 1</h1>
+    <p class="meta">By Tushar Rathod · 24 November 2026 · 3 min read</p>
 
-    <p>We count with 10 digits, 0 to 9. When we run out, we add a new column: 9 becomes 10.</p>
+    <img src="binary-cover.png" alt="Binary 0101 equals 5" width="100%">
 
-    <p>A computer has only two digits: 0 and 1. Inside, it is just tiny switches: off (0) or on (1). Each one is called a bit.</p>
+    <p class="lead">We count with ten digits, 0 to 9. When we run out, we add a new column, and 9 becomes 10. We do it so naturally that we never think about it.</p>
+
+    <p>A computer has only two digits: 0 and 1. Inside, it is made of tiny switches that can be off (0) or on (1). Each switch is called a bit.</p>
+
+    <h2>An idea older than computers</h2>
+    <p>In 1703, the German mathematician Gottfried Wilhelm Leibniz published a paper describing a number system using only 0 and 1. More than two hundred years later, that idea became the language of every computer.</p>
 
     <h2>Counting in binary</h2>
-    <table border="1">
+    <p>Binary counts the same way we do. It just runs out of digits faster.</p>
+    <table>
       <tr><th>Normal</th><th>Binary</th></tr>
       <tr><td>0</td><td>0</td></tr>
       <tr><td>1</td><td>1</td></tr>
@@ -22,11 +35,15 @@
     </table>
 
     <h2>How to read binary</h2>
-    <p>Each column is worth double the one on its right: 1, 2, 4, 8, 16...</p>
-    <p>So 101 = 4 + 0 + 1 = 5.</p>
+    <p>Each column is worth double the one on its right: 1, 2, 4, 8, 16, and so on.</p>
+    <p>Take 101. The right column (1) is on, the middle column (2) is off, and the left column (4) is on. So 101 = 4 + 0 + 1 = 5.</p>
 
-    <p>8 bits make a byte. The biggest number one byte can hold is 11111111 = 255.</p>
+    <h2>Bits and bytes</h2>
+    <p>Eight bits together make a byte. The biggest number one byte can hold is 11111111, which equals 255.</p>
+    <p>Everything on your computer, including numbers, letters, photos and music, is stored as these 0s and 1s.</p>
 
-    <p><a href="index.html">Back to home</a></p>
+    <p><em>Next: how the letter A becomes 01000001.</em></p>
+
+    <p><a href="index.html">← Back to all articles</a></p>
   </body>
 </html>
